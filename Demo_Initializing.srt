@@ -1,0 +1,115 @@
+1
+00:00:00,001 --> 00:00:05,001
+Windows 11, XeonSilver CPU
+
+2
+00:00:05,001 --> 00:00:10,001
+Open Terminal or Windows Powershell
+
+3
+00:00:12,001 --> 00:00:17,001
+Activate napari-virtual environment
+
+4
+00:00:22,001 --> 00:00:25,001
+Start napari
+
+5
+00:00:25,001 --> 00:00:30,001
+Start micromanager (MM2)
+
+6
+00:00:32,001 --> 00:00:37,001
+Load OpenScan-TCSPC device configuration
+
+7
+00:00:47,001 --> 00:00:52,001
+Open DevicePropertyBrowser
+
+8
+00:00:52,001 --> 00:00:57,001
+Set a 4digit UDP Tx Port 
+
+9
+00:01:02,001 --> 00:01:07,001
+Start napari-live-flim:FLIM Viewer Plugin
+
+10
+00:01:07,001 --> 00:01:12,001
+Set the UDP Rx Port
+
+11
+00:01:27,001 --> 00:01:32,001
+Start Live Imaging on MM2 :Mixed Pollengrain Sample
+
+12
+00:01:39,001 --> 00:01:44,001
+Adjust TCSPC-histogram parameters used for fitting/rendering
+
+13
+00:01:50,001 --> 00:01:55,001
+Photon counts per sec can be monitored in the TCSPC <CFD> parameter
+
+14
+00:02:03,001 --> 00:02:08,001
+Adjust the excitation laser power by changing Pockelcell voltage to 0.5mV
+
+15
+00:02:09,001 --> 00:02:14,001
+Adjust timebin start-stop parameters for fitting/rendering
+
+16
+00:02:20,001 --> 00:02:25,001
+Move the selection cursor (red) to select region of interest
+
+17
+00:02:40,001 --> 00:02:45,001
+Verify LMA/RLD fitting
+
+18
+00:02:45,001 --> 00:02:50,001
+Adjust LUT range for FLIM
+
+19
+00:02:55,001 --> 00:03:00,001
+Move cursor in FOV to see realtime curve fitting results
+
+20
+00:03:25,001 --> 00:03:30,001
+Add a phasor using "New Phasor Selection" button
+
+21
+00:03:31,001 --> 00:03:35,001
+The brightgreen phasor-cursor link green pixels in the FLIM image
+
+22
+00:03:35,001 --> 00:03:40,001
+Remove phasor LUT for non-overlapping colors
+
+23
+00:03:55,001 --> 00:04:00,001
+Add a second phasor cursor
+24
+00:04:10,001 --> 00:04:15,001
+The three fitting window shows red(FLIM), green(phasor1) and blue(phasor2) cursors used.
+
+25
+00:05:10,001 --> 00:05:15,001
+Stop Live Imaging. Restarting Imaging appears as a new layer.
+
+26
+00:05:30,001 --> 00:05:35,001
+Remove frame-accumulation and change optical zoom for LSM
+
+27
+00:05:40,001 --> 00:05:45,001
+Move stage to bring a pollengrain to the FOV
+
+28
+00:07:11,001 --> 00:07:16,001
+Check delta-Snapshot checkbox for singleshot and click Snapshot
+
+29
+00:07:20,001 --> 00:07:25,001
+The FLIM analysis will be split at the snapshot moments to generate slices
+

@@ -1,0 +1,51 @@
+[Script Info]
+Title:
+Original Script:
+Original Translation:
+Original Editing:
+Original Timing:
+Synch Point:
+Script Updated By:
+Update Details:
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 1920
+PlayResY: 1080
+PlayDepth:
+Timer: 100.0000
+WrapStyle:
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,30,&H00ffffff,&H0000ffff,&H00000000,&H00000000,0,0,0,0,100,100,0,0.00,1,2,2,2,30,30,10,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:05.00,Default,,0000,0000,0000,,Windows 11, XeonSilver CPU
+Dialogue: 0,0:00:05.00,0:00:10.00,Default,,0000,0000,0000,,Open Terminal or Windows Powershell
+Dialogue: 0,0:00:12.00,0:00:17.00,Default,,0000,0000,0000,,Activate napari-virtual environment
+Dialogue: 0,0:00:22.00,0:00:25.00,Default,,0000,0000,0000,,Start napari
+Dialogue: 0,0:00:25.00,0:00:30.00,Default,,0000,0000,0000,,Start micromanager (MM2)
+Dialogue: 0,0:00:32.00,0:00:37.00,Default,,0000,0000,0000,,Load OpenScan-TCSPC device configuration
+Dialogue: 0,0:00:47.00,0:00:52.00,Default,,0000,0000,0000,,Open DevicePropertyBrowser
+Dialogue: 0,0:00:52.00,0:00:57.00,Default,,0000,0000,0000,,Set a 4digit UDP Tx Port 
+Dialogue: 0,0:01:02.00,0:01:07.00,Default,,0000,0000,0000,,Start napari-live-flim:FLIM Viewer Plugin
+Dialogue: 0,0:01:07.00,0:01:12.00,Default,,0000,0000,0000,,Set the UDP Rx Port
+Dialogue: 0,0:01:27.00,0:01:32.00,Default,,0000,0000,0000,,Start Live Imaging on MM2 :Mixed Pollengrain Sample
+Dialogue: 0,0:01:39.00,0:01:44.00,Default,,0000,0000,0000,,Adjust TCSPC-histogram parameters used for fitting/rendering
+Dialogue: 0,0:01:50.00,0:01:55.00,Default,,0000,0000,0000,,Photon counts per sec can be monitored in the TCSPC <CFD> parameter
+Dialogue: 0,0:02:03.00,0:02:08.00,Default,,0000,0000,0000,,Adjust the excitation laser power by changing Pockelcell voltage to 0.5mV
+Dialogue: 0,0:02:09.00,0:02:14.00,Default,,0000,0000,0000,,Adjust timebin start-stop parameters for fitting/rendering
+Dialogue: 0,0:02:20.00,0:02:25.00,Default,,0000,0000,0000,,Move the selection cursor (red) to select region of interest
+Dialogue: 0,0:02:40.00,0:02:45.00,Default,,0000,0000,0000,,Verify LMA/RLD fitting
+Dialogue: 0,0:02:45.00,0:02:50.00,Default,,0000,0000,0000,,Adjust LUT range for FLIM
+Dialogue: 0,0:02:55.00,0:03:00.00,Default,,0000,0000,0000,,Move cursor in FOV to see realtime curve fitting results
+Dialogue: 0,0:03:25.00,0:03:30.00,Default,,0000,0000,0000,,Add a phasor using "New Phasor Selection" button
+Dialogue: 0,0:03:31.00,0:03:35.00,Default,,0000,0000,0000,,The brightgreen phasor-cursor link green pixels in the FLIM image
+Dialogue: 0,0:03:35.00,0:03:40.00,Default,,0000,0000,0000,,Remove phasor LUT for non-overlapping colors
+Dialogue: 0,0:03:55.00,0:04:00.00,Default,,0000,0000,0000,,Add a second phasor cursor\N24\N00:04:10,001 --> 00:04:15,001\NThe three fitting window shows red(FLIM), green(phasor1) and blue(phasor2) cursors used.
+Dialogue: 0,0:05:10.00,0:05:15.00,Default,,0000,0000,0000,,Stop Live Imaging. Restarting Imaging appears as a new layer.
+Dialogue: 0,0:05:30.00,0:05:35.00,Default,,0000,0000,0000,,Remove frame-accumulation and change optical zoom for LSM
+Dialogue: 0,0:05:40.00,0:05:45.00,Default,,0000,0000,0000,,Move stage to bring a pollengrain to the FOV
+Dialogue: 0,0:07:11.00,0:07:16.00,Default,,0000,0000,0000,,Check delta-Snapshot checkbox for singleshot and click Snapshot
+Dialogue: 0,0:07:20.00,0:07:25.00,Default,,0000,0000,0000,,The FLIM analysis will be split at the snapshot moments to generate slices

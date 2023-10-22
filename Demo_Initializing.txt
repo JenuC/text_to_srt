@@ -1,0 +1,29 @@
+00:00:00: Windows 11, XeonSilver CPU
+00:00:05: Open Terminal or Windows Powershell
+00:00:12: Activate napari-virtual environment
+00:00:22: Start napari
+00:00:25: Start micromanager (MM2)
+00:00:32: Load OpenScan-TCSPC device configuration
+00:00:47: Open DevicePropertyBrowser
+00:00:52: Set a 4digit UDP Tx Port 
+00:01:02: Start napari-live-flim:FLIM Viewer Plugin
+00:01:07: Set the UDP Rx Port
+00:01:27: Start Live Imaging on MM2 :Mixed Pollengrain Sample
+00:01:39: Adjust TCSPC-histogram parameters used for fitting/rendering
+00:01:50: Photon counts per sec can be monitored in the TCSPC <CFD> parameter
+00:02:03: Adjust the excitation laser power by changing Pockelcell voltage to 0.5mV
+00:02:09: Adjust timebin start-stop parameters for fitting/rendering
+00:02:20: Move the selection cursor (red) to select region of interest
+00:02:40: Verify LMA/RLD fitting
+00:02:45: Adjust LUT range for FLIM
+00:02:55: Move cursor in FOV to see realtime curve fitting results
+00:03:25: Add a phasor using "New Phasor Selection" button
+00:03:31: The brightgreen phasor-cursor link green pixels in the FLIM image
+00:03:35: Remove phasor LUT for non-overlapping colors
+00:03:55: Add a second phasor cursor: blue
+00:04:10: The three fitting window shows red(FLIM), green(phasor1) and blue(phasor2) cursors used.
+00:05:10: Stop Live Imaging. Restarting Imaging appears as a new layer.
+00:05:30: Remove frame-accumulation and change optical zoom for LSM
+00:05:40: Move stage to bring a pollengrain to the FOV
+00:07:11: Check delta-Snapshot checkbox for singleshot and click Snapshot
+00:07:20: The FLIM analysis will be split at the snapshot moments to generate slices
